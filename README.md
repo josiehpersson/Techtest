@@ -1,7 +1,7 @@
 ## Installation Instructions
-## npm i react
-## npm install react-router-dom
-## npm install --save react-tabs
+## `npm i react`
+## `npm install react-router-dom`
+## `npm install --save react-tabs`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
