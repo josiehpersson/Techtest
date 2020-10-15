@@ -1,0 +1,138 @@
+@font-face {
+  font-family: MillerBanner;
+  src: url('../Font\ Bureau\ -\ MillerBanner\ Light.otf');
+}
+
+.page-container {
+  width: 375px;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2px auto 2px auto;
+}
+
+.picture-container {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+    url('pagepic.jpg');
+  background-size: 100%;
+  background-position: center center;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 355px;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+.reviews {
+  font-size: 75%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.headline-information {
+  padding: 10px;
+  line-height: 0.5pt;
+}
+
+.fa-star {
+  color: #b69f58;
+}
+.primary-text {
+  font-family: MillerBanner;
+  color: white;
+}
+
+.secondary-text {
+  font-family: Helvetica;
+  font-weight: 300;
+  color: white;
+  margin-left: 5px;
+}
+
+.divider {
+  width: 345px;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+/*TABS*/
+.tabs {
+  background-color: #eeeeee;
+  color: #202020;
+  font-family: Helvetica;
+}
+.tab-list {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 375px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+  justify-content: flex-start;
+  list-style: none;
+  font-family: Helvetica;
+  background-color: #ffffff;
+}
+
+.tab-list-item {
+  width: 40%;
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+}
+.tab-list-active {
+  border-bottom: 2px solid #b69f58;
+}
+
+.tab-list:hover {
+  cursor: pointer;
+}
+.tab-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  font-size: 85%;
+}
+
+.information {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.chevron-down {
+    margin-left: auto;
+    margin-right: 0px;
+}
+.information > img,
+.time-table > img {
+  margin-right: 7px;
+  height: 15px;
+  width: 15px;
+}
+.time-table {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  color: #202020;
+  font-family: Helvetica;
+}
+
+.time-table:hover {
+  cursor: pointer;
+}
