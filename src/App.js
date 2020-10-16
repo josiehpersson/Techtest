@@ -11,11 +11,12 @@ import './App.css';
 
 
 function App(props) {
+
   return (
     <div className="App">
       <Router>
       <Switch>
-      <Route exact path="/Page" render = {(props) => <Page {...props} name={props.name}/>}>
+      <Route path="/Page">
         <Page />
         </Route>
         <Route path="/">

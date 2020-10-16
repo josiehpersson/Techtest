@@ -1,9 +1,7 @@
 import React from 'react';
-import {Route, Link} from 'react-router-dom';
 import Data from '../DataSource/Data';
 import ListItem from './ListItem';
-import Page from '../Page/Page';
-import ChevronRight from '../Icons/chevron-right-gold.png';
+import Filter from './Filter';
 import './list.css';
 
 function List(props) {
@@ -22,7 +20,9 @@ function List(props) {
     );
   }
   return (
-  <div className="list">{showListItems}        
+    <div className="list">
+    <Filter />
+    {showListItems}        
 </div>
 );
 }

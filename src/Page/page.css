@@ -31,6 +31,12 @@
   padding: 10px;
   color: white;
 }
+
+.icon-container img {
+  height: 15px;
+  width: 15px;
+}
+
 .reviews {
   font-size: 75%;
   display: flex;
@@ -38,18 +44,25 @@
   align-items: center;
 }
 
+.reviews > img {
+  height: 15px;
+  width: 15px;
+}
+
 .headline-information {
   padding: 10px;
   line-height: 0.5pt;
 }
 
+.headline-information > .headline {
+  color: white;
+  margin-bottom: -5px;
+}
+
 .fa-star {
   color: #b69f58;
 }
-.primary-text {
-  font-family: MillerBanner;
-  color: white;
-}
+
 
 .secondary-text {
   font-family: Helvetica;
@@ -113,8 +126,8 @@
 }
 
 .chevron-down {
-    margin-left: auto;
-    margin-right: 0px;
+  margin-left: auto;
+  margin-right: 0px;
 }
 .information > img,
 .time-table > img {

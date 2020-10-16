@@ -1,42 +1,53 @@
 import React from 'react';
-import {Link, Route} from 'react-router-dom';
-import Page from '../Page/Page';
+import './list.css';
+import {Link} from 'react-router-dom';
+import FilledStar from '../Icons/star-filled.png';
+import OutlinedStar from '../Icons/star-outlined.png';
 import ChevronRight from '../Icons/chevron-right-gold.png';
 
 function ListItem(props) {
+
+      const handleClick = () => {
+          localStorage.Name = props.name;
+          localStorage.Reviews = props.reviews;
+          localStorage.Address = props.address;
+          console.log(props.name, props.reviews, props.address);
+      }
   return (
     <>
       <div className="list-item">
         <div className="column-1">
-          <p className="primary-text">12.00</p>
+          <p>12.00</p>
         </div>
 
         <div className="column-2">
           <p className="headline">{props.name}</p>
           <div className="reviews">
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="fas fa-star"></i>
-            <i className="far fa-star"></i>
+              <img src={FilledStar} alt="filled-star-icon"></img>
+              <img src={FilledStar} alt="filled-star-icon"></img>
+              <img src={FilledStar} alt="filled-star-icon"></img>
+              <img src={FilledStar} alt="filled-star-icon"></img>
+              <img src={OutlinedStar} alt="outlined-star-icon"></img>
             <p className="secondary-text">({props.reviews})</p>
           </div>
-          <p className="secondary-text">{props.address}</p>
+          <p>{props.address}</p>
         </div>
 
         <div className="column-3">
-          <p className="primary-text">{props.price} kr</p>
+          <p>{props.price} kr</p>
           <p className="secondary-text">30 min</p>
         </div>
-        
         <Link to="/Page">
-      <div className="chevron-btn">
-        <img src={ChevronRight} alt="right-arrow-icon" className="arrow-icon"/>
-      </div>
+          <button className="chevron-btn" onClick={handleClick}>
+            <img
+              src={ChevronRight}
+              alt="right-arrow-icon"
+              className="arrow-icon"
+            />
+          </button>
         </Link>
       </div>
       <div className="divider"></div>
-
     </>
   );
 }

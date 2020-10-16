@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
@@ -16,25 +16,49 @@ import Website from '../Icons/website.png';
 import './page.css';
 
 function Page(props) {
+    const [name, setName] = useState('');
+    const [reviews, setReviews] = useState('');
+    const [address, setAddress] = useState('');
+    
+    const getInfo = () => {
+        let getName = localStorage.Name;
+        let getReviews = localStorage.Reviews;
+        let getAddress = localStorage.Address;
+
+
+        setName(getName);
+        setReviews(getReviews);
+        setAddress(getAddress);
+    }
+    useEffect(() => {
+        setInterval(
+            getInfo(),
+            1000
+        );
+    })
+
+
   return (
     <div className="page-container">
       <div className="picture-container">
         <div className="icon-container">
           <Link to="/">
+              <button className="chevron-btn">
             <img src={ChevronLeft} alt="left-arrow-icon"></img>
+              </button>
           </Link>
           <img src={Heart} alt="heart-icon"></img>
         </div>
 
         <div className="headline-information">
-          <p className="primary-text">{props.name}</p>
+          <p className="headline">{name}</p>
           <div className="reviews">
             <img src={StarFilled} alt="filled-star-icon"></img>
             <img src={StarFilled} alt="filled-star-icon"></img>
             <img src={StarFilled} alt="filled-star-icon"></img>
             <img src={StarFilled} alt="filled-star-icon"></img>
             <img src={StarOutlined} alt="outlined-star-icon"></img>
-            <p className="secondary-text">({props.reviews})</p>
+            <p className="secondary-text">({reviews})</p>
           </div>
         </div>
       </div>
@@ -49,7 +73,7 @@ function Page(props) {
             <div className="tab-item" id="information">
               <div className="information">
                 <img src={MapPin} alt="map-pin-icon"></img>
-                <p>{props.address}, 11357 Stockholm</p>
+                <p>{address}, 11357 Stockholm</p>
               </div>
 
               <div className="divider"></div>
