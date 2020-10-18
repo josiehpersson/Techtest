@@ -1,6 +1,6 @@
 import React from 'react';
-import Page from './Page/Page';
-import List from './List/List';
+import Page from './Components/Page/Page';
+import List from './Components/List/List';
 
 import {
   BrowserRouter as Router,

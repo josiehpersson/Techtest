@@ -1,0 +1,25 @@
+@font-face {
+  font-family: MillerBanner;
+  src: url(../Font\ Bureau\ -\ MillerBanner\ Light.otf);
+}
+
+.filter-container {
+  display: flex;
+  flex-flow: column nowrap;
+  background: transparent;
+  border-bottom: 1px solid #b69f58;
+  border-top: 1px solid #b69f58;
+  padding: 10px;
+}
+
+.filter-container > select {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  border: none;
+  color: #b69f58;
+}
+.filter-container > select:active,
+.filter-container > select:focus {
+  outline: none;
+}

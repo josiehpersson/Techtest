@@ -1,0 +1,22 @@
+@font-face {
+  font-family: MillerBanner;
+  src: url(../Font\ Bureau\ -\ MillerBanner\ Light.otf);
+}
+
+.header {
+  width: 375px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > img {
+  height: 24px;
+  width: 24px;
+}
+
+.header > p {
+  font-family: Millerbanner;
+  font-size: 150%;
+}

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
@@ -16,36 +16,31 @@ import Website from '../Icons/website.png';
 import './page.css';
 
 function Page(props) {
-    const [name, setName] = useState('');
-    const [reviews, setReviews] = useState('');
-    const [address, setAddress] = useState('');
-    
-    const getInfo = () => {
-        let getName = localStorage.Name;
-        let getReviews = localStorage.Reviews;
-        let getAddress = localStorage.Address;
+  const [name, setName] = useState('');
+  const [reviews, setReviews] = useState('');
+  const [address, setAddress] = useState('');
 
+  const getInfo = () => {
+    let getName = localStorage.Name;
+    let getReviews = localStorage.Reviews;
+    let getAddress = localStorage.Address;
 
-        setName(getName);
-        setReviews(getReviews);
-        setAddress(getAddress);
-    }
-    useEffect(() => {
-        setInterval(
-            getInfo(),
-            1000
-        );
-    })
-
+    setName(getName);
+    setReviews(getReviews);
+    setAddress(getAddress);
+  };
+  useEffect(() => {
+    setInterval(getInfo(), 1000);
+  });
 
   return (
     <div className="page-container">
       <div className="picture-container">
         <div className="icon-container">
           <Link to="/">
-              <button className="chevron-btn">
-            <img src={ChevronLeft} alt="left-arrow-icon"></img>
-              </button>
+            <button className="chevron-btn">
+              <img src={ChevronLeft} alt="left-arrow-icon"></img>
+            </button>
           </Link>
           <img src={Heart} alt="heart-icon"></img>
         </div>
