@@ -4,7 +4,7 @@
 ## `npm install --save react-tabs`
 
 
-## Live demo
+Live demo
 https://josiehpersson.github.io/Techtest/
 
 
