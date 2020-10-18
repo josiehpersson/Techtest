@@ -5,7 +5,7 @@
 
 
 ## Live demo
-[https://josiehpersson.github.io/Techtest/.](https://josiehpersson.github.io/Techtest/.)
+https://josiehpersson.github.io/Techtest/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
