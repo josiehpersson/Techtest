@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/josiehpersson/salon/static/css/main.ad4dfadf.chunk.css",
-    "main.js": "/josiehpersson/salon/static/js/main.d29ff2c8.chunk.js",
-    "main.js.map": "/josiehpersson/salon/static/js/main.d29ff2c8.chunk.js.map",
-    "runtime-main.js": "/josiehpersson/salon/static/js/runtime-main.91dd7bf2.js",
-    "runtime-main.js.map": "/josiehpersson/salon/static/js/runtime-main.91dd7bf2.js.map",
-    "static/js/2.693fe358.chunk.js": "/josiehpersson/salon/static/js/2.693fe358.chunk.js",
-    "static/js/2.693fe358.chunk.js.map": "/josiehpersson/salon/static/js/2.693fe358.chunk.js.map",
-    "index.html": "/josiehpersson/salon/index.html",
-    "precache-manifest.c99ccdbbd9118ac0e03393b1d96e216b.js": "/josiehpersson/salon/precache-manifest.c99ccdbbd9118ac0e03393b1d96e216b.js",
-    "service-worker.js": "/josiehpersson/salon/service-worker.js",
-    "static/css/main.ad4dfadf.chunk.css.map": "/josiehpersson/salon/static/css/main.ad4dfadf.chunk.css.map",
-    "static/js/2.693fe358.chunk.js.LICENSE.txt": "/josiehpersson/salon/static/js/2.693fe358.chunk.js.LICENSE.txt",
-    "static/media/list.css": "/josiehpersson/salon/static/media/Font Bureau - MillerBanner Light.aff4e59d.otf",
-    "static/media/page.css": "/josiehpersson/salon/static/media/pagepic.599f97e8.jpg"
+    "main.css": "/josiehpersson/techtest/static/css/main.a8407855.chunk.css",
+    "main.js": "/josiehpersson/techtest/static/js/main.1ef5656d.chunk.js",
+    "main.js.map": "/josiehpersson/techtest/static/js/main.1ef5656d.chunk.js.map",
+    "runtime-main.js": "/josiehpersson/techtest/static/js/runtime-main.cf1976a5.js",
+    "runtime-main.js.map": "/josiehpersson/techtest/static/js/runtime-main.cf1976a5.js.map",
+    "static/js/2.693fe358.chunk.js": "/josiehpersson/techtest/static/js/2.693fe358.chunk.js",
+    "static/js/2.693fe358.chunk.js.map": "/josiehpersson/techtest/static/js/2.693fe358.chunk.js.map",
+    "index.html": "/josiehpersson/techtest/index.html",
+    "precache-manifest.25ee3260eb384d58af775d4ed673aeb2.js": "/josiehpersson/techtest/precache-manifest.25ee3260eb384d58af775d4ed673aeb2.js",
+    "service-worker.js": "/josiehpersson/techtest/service-worker.js",
+    "static/css/main.a8407855.chunk.css.map": "/josiehpersson/techtest/static/css/main.a8407855.chunk.css.map",
+    "static/js/2.693fe358.chunk.js.LICENSE.txt": "/josiehpersson/techtest/static/js/2.693fe358.chunk.js.LICENSE.txt",
+    "static/media/list.css": "/josiehpersson/techtest/static/media/Font Bureau - MillerBanner Light.aff4e59d.otf",
+    "static/media/page.css": "/josiehpersson/techtest/static/media/pagepic.599f97e8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.91dd7bf2.js",
+    "static/js/runtime-main.cf1976a5.js",
     "static/js/2.693fe358.chunk.js",
-    "static/css/main.ad4dfadf.chunk.css",
-    "static/js/main.d29ff2c8.chunk.js"
+    "static/css/main.a8407855.chunk.css",
+    "static/js/main.1ef5656d.chunk.js"
   ]
 }
