@@ -33,6 +33,11 @@ function Page(props) {
     setInterval(getInfo(), 1000);
   });
 
+  const handleClick = (event) => {
+    if(event.target.classList.contains('tab-list-item')) {
+      event.target.classList.toggle('tab-list-item-active')
+    }
+  }
   return (
     <div className="page-container">
       <div className="picture-container">
@@ -60,8 +65,8 @@ function Page(props) {
       <div className="information-container">
         <Tabs className="tabs">
           <TabList className="tab-list">
-            <Tab className="tab-list-item">Info</Tab>
-            <Tab className="tab-list-item">Schema</Tab>
+            <Tab className="tab-list-item" onClick={handleClick}>Info</Tab>
+            <Tab className="tab-list-item" onClick={handleClick}>Schema</Tab>
           </TabList>
 
           <TabPanel className="tab-content">
