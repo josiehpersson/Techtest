@@ -2,7 +2,7 @@
   "name": "salon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/josiehpersson/techtest/",
+  "homepage": "http://josiehpersson.github.io/techtest",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
