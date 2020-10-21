@@ -1,7 +1,7 @@
 {
   "short_name": "Techtest",
   "name": "Techtest",
-  "start_url": "http://josiehpersson.github.io/techtest",
+  "start_url": "http://techtest.github.com",
   "display": "minimal-ui",
   "theme_color": "#b69f58",
   "background_color": "#ffffff"
