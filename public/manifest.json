@@ -1,7 +1,7 @@
 {
   "short_name": "Techtest",
   "name": "Techtest",
-  "start_url": "/?source=pwa",
+  "start_url": "http://josiehpersson.github.io/techtest",
   "display": "minimal-ui",
   "theme_color": "#b69f58",
   "background_color": "#ffffff"
