@@ -2,7 +2,7 @@
   "short_name": "Techtest",
   "name": "Techtest",
   "start_url": "/?source=pwa",
-  "display": "standalone",
-  "theme_color": "#000000",
+  "display": "minimal-ui",
+  "theme_color": "#b69f58",
   "background_color": "#ffffff"
 }
